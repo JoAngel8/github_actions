@@ -1,26 +1,24 @@
 # github_actions
 Datascientest
 
-> Path: 
-> /home/ubuntu/Github/github_actions/**.github/workflows**
+Path Workflow : /home/ubuntu/Github/github_actions/**.github/workflows**
+Path Files : /home/ubuntu/Github/**github_actions/**
 
-> Project, settings, Actions New repositories secrets: 
+> Project, settings, Actions New repositories secrets:
+```
     NAME : ACTIONS_RUNNER_DEBUG
     KEY: true
     NAME : ACTIONS_STEP_DEBUG
     KEY: true
+```
 
 ## Github - Introduction to CI / CD (FR)
-> multiple_shells.yaml
-> my_first_workflow.yml
+* multiple_shells.yaml
+* my_first_workflow.yml
 
 ## Github - Events & Actions (FR)
-> file_test.py
-Resultats: logs_10.zip
-
-> test_calculations.py
-> calculs.py
-Perso
+* file_test.py = Resultats: logs_10.zip avec erreur, puis corrige selon Convention PEP8
+* test_calculations.py ; > calculs.py = Perso
 
 Tout d'abord, vous devez créer un script python qui contient des fonctions avec des assertions à tester. 
 Pytest analysera toutes les fonctions de vos scripts mais il y a une condition : 
@@ -36,7 +34,7 @@ L'erreur E501 signalée par flake8 indique qu'une ligne de votre code dépasse l
 
 > Ces ajustements rendront votre code conforme aux conventions de style PEP 8, qui sont largement adoptées dans la communauté Python pour maintenir la cohérence et la lisibilité du code.
 
-## Questions
+### Questions
 
 Quel est la bonne pratique concernant l'emplacement des fichiers du workflow et les fichiers utilisés par le workflow ?
 est-ce que tout dois se trouver dans le dossier ".github/workflows" ?
