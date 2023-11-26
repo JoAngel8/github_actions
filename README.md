@@ -3,7 +3,12 @@ Datascientest
 
 > Path: 
 > /home/ubuntu/Github/github_actions/**.github/workflows**
- 
+
+> Project, settings, Actions New repositories secrets: 
+> NAME : ACTIONS_RUNNER_DEBUG
+> KEY: true
+> NAME : ACTIONS_STEP_DEBUG
+> KEY: true
 
 ## Github - Introduction to CI / CD (FR)
 > multiple_shells.yaml
@@ -11,7 +16,11 @@ Datascientest
 
 ## Github - Events & Actions (FR)
 > file_test.py
-Resultats: logs_8.zip
+Resultats: logs_10.zip
+
+> test_calculations.py
+> calculs.py
+Resultats: logs_10.zip
 
 Tout d'abord, vous devez créer un script python qui contient des fonctions avec des assertions à tester. 
 Pytest analysera toutes les fonctions de vos scripts mais il y a une condition : 
