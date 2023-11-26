@@ -6,15 +6,16 @@ Datascientest
  
 
 ## Github - Introduction to CI / CD (FR)
-multiple_shells.yaml
-my_first_workflow.yml
+> multiple_shells.yaml
+> my_first_workflow.yml
 
 ## Github - Events & Actions (FR)
+> file_test.py
+Resultats: logs_8.zip
 
-Tout d'abord, vous devez créer un script python qui contient des fonctions avec des assertions à tester. Pytest analysera toutes les fonctions de vos scripts mais il y a une condition : 
+Tout d'abord, vous devez créer un script python qui contient des fonctions avec des assertions à tester. 
+Pytest analysera toutes les fonctions de vos scripts mais il y a une condition : 
 le nom de vos fonctions doit commencer par **test_.**
-
-file_test.py
 
 ## Questions
 
@@ -23,6 +24,7 @@ est-ce que tout dois se trouver dans le dossier ".github/workflows" ?
 
 ## Structure de l'arborescence
 
+```
 ubuntu@ip-172-31-23-56:~/Github$ sudo apt  install tree
 ubuntu@ip-172-31-23-56:~/Github$ tree -a 
 .
@@ -86,3 +88,4 @@ ubuntu@ip-172-31-23-56:~/Github$ tree -a
     └── README.md
 
 38 directories, 50 files
+```
