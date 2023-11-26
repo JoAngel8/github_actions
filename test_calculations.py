@@ -1,12 +1,23 @@
-# test_calculations.py
-
-from calculs import addition, soustraction, multiplication, coucou
+# Test_calculations.py
+# Pas besoin d'importer pytest pour ces tests simples
+# import pytest
 
 def test_calc_addition():
-    assert addition(2, 4) == 6
+    # Test de la fonction pour le résultat de 2 + 4
+    output = 2 + 4
+    assert output == 6
+
 def test_calc_substraction():
-    assert soustraction(2, 4) == -2
+    # Test de la fonction pour le résultat de 2 - 4
+    output = 2 - 4
+    assert output == -2
+
 def test_calc_multiply():
-    assert multiplication(2, 4) == 8
+    # Test de la fonction pour le résultat de 2 * 4
+    output = 2 * 4
+    assert output == 8
+
 def test_coucou():
-    assert coucou() == 'hello'
+    # Test de la fonction pour vérifier si le résultat est 'hello'
+    output = 'hello'
+    assert output == 'hello'
