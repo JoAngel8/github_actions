@@ -1,8 +1,8 @@
 # github_actions
 Datascientest
 
-> Path: 
-> /home/ubuntu/Github/github_actions/**.github/workflows**
+Path Workflow : /home/ubuntu/Github/github_actions/**.github/workflows**
+Path Files : /home/ubuntu/Github/**github_actions/**
 
 > Project, settings, Actions New repositories secrets:
 ```
