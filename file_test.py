@@ -1,10 +1,5 @@
 import pytest
 
-'''
-Pytest analysera toutes les fonctions de vos scripts mais il y a une condition : 
-le nom de vos fonctions doit commencer par test_.
-'''
-
 def test_calc_addition():
   # Fonction test du résultat de 2+4
     output = 2+4
