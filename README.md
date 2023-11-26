@@ -26,10 +26,21 @@ Tout d'abord, vous devez créer un script python qui contient des fonctions avec
 Pytest analysera toutes les fonctions de vos scripts mais il y a une condition : 
 le nom de vos fonctions doit commencer par **test_.**
 
+
+### Modifications apportees :
+
+Espacement autour des Opérateurs : Ajout d'espaces autour des opérateurs +, -, et * pour améliorer la lisibilité.
+Commentaires : Les commentaires commencent par une majuscule et sont placés sur une ligne distincte au-dessus du code auquel ils se réfèrent. Cela rend le code plus lisible et conforme aux standards de PEP 8.
+Importation de Pytest : Comme discuté précédemment, l'importation de pytest n'est pas nécessaire pour ce script de test. Vous pouvez la supprimer pour un code plus propre, sauf si vous utilisez des fonctionnalités spécifiques de pytest.
+
+> Ces ajustements rendront votre code conforme aux conventions de style PEP 8, qui sont largement adoptées dans la communauté Python pour maintenir la cohérence et la lisibilité du code.
+
 ## Questions
 
 Quel est la bonne pratique concernant l'emplacement des fichiers du workflow et les fichiers utilisés par le workflow ?
 est-ce que tout dois se trouver dans le dossier ".github/workflows" ?
+
+Revoir les conventions PEP8 pour le code. 
 
 ## Structure de l'arborescence
 
