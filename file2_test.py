@@ -1,5 +1,5 @@
 # Pas besoin d'importer pytest pour ces tests simples
-# import pytest - Pas nécessaire si vous n'utilisez pas les fonctionnalités spécifiques de pytest
+# import pytest
 
 def test_calc_addition():
     # Test de la fonction pour le résultat de 2 + 4

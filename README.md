@@ -32,6 +32,7 @@ le nom de vos fonctions doit commencer par **test_.**
 Espacement autour des Opérateurs : Ajout d'espaces autour des opérateurs +, -, et * pour améliorer la lisibilité.
 Commentaires : Les commentaires commencent par une majuscule et sont placés sur une ligne distincte au-dessus du code auquel ils se réfèrent. Cela rend le code plus lisible et conforme aux standards de PEP 8.
 Importation de Pytest : Comme discuté précédemment, l'importation de pytest n'est pas nécessaire pour ce script de test. Vous pouvez la supprimer pour un code plus propre, sauf si vous utilisez des fonctionnalités spécifiques de pytest.
+L'erreur E501 signalée par flake8 indique qu'une ligne de votre code dépasse la limite maximale de 79 caractères recommandée par PEP 8.
 
 > Ces ajustements rendront votre code conforme aux conventions de style PEP 8, qui sont largement adoptées dans la communauté Python pour maintenir la cohérence et la lisibilité du code.
 
