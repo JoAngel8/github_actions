@@ -1,4 +1,3 @@
-# Test_calculations.py
 # Pas besoin d'importer pytest pour ces tests simples
 # import pytest
 
